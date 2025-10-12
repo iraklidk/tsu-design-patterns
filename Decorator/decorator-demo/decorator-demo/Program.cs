@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Program
+{
+    static void Main()
+    {
+        ICar sportsCar = new SportsCar(new BasicCar());
+        sportsCar.Assemble();
+        Console.WriteLine();
+    }
+}

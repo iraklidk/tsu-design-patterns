@@ -21,6 +21,6 @@ This example shows how a **Music Player** changes its behavior depending on its 
 ```csharp
 var player = new Player();
 
-player.PressPlay(); // Resuming the music 🎶▶️
-player.PressPlay(); // Pausing the music 🎵⏸️
-player.PressPlay(); // Resuming again 🎶▶️
+player.PressPlay(); // Resuming the music
+player.PressPlay(); // Pausing the music
+player.PressPlay(); // Resuming again
